@@ -133,19 +133,19 @@ d3.json(plateLocations,function(response){
 function displayLegend(){
     var legendInfo = [{
         limit: "Mag: 0-1",
-        color: "chartreuse"
+        color: "green"
     },{
         limit: "Mag: 1-2",
         color: "greenyellow"
     },{
         limit:"Mag: 2-3",
-        color:"gold"
+        color:"yellow"
     },{
         limit:"Mag: 3-4",
-        color:"DarkOrange"
+        color:"orange"
     },{
         limit:"Mag: 4-5",
-        color:"Peru"
+        color:"darkorange"
     },{
         limit:"Mag: 5+",
         color:"red"
